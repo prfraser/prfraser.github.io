@@ -8,24 +8,55 @@ body
 .wrapper
   display: grid
   grid-template-columns: repeat(3, 1fr)
-  grid-auto-rows: 215px
+  grid-auto-rows: 214px
 
 .box
   background-color: white
   border: 0.5px solid black
+
+.a
+  @extend .remove-topborder
+  @extend .remove-leftborder
+
+.b
+  @extend .remove-topborder
+
+.c 
+  @extend .remove-topborder
+  @extend .remove-rightborder
+
+.d 
+  @extend .remove-leftborder
+
+.f 
+  @extend .remove-rightborder
+
+.g 
+  @extend .remove-leftborder
+  @extend .remove-bottomborder
+
+.h 
+  @extend .remove-bottomborder
+
+.i 
+  @extend .remove-rightborder
+  @extend .remove-bottomborder
+
 
 .header
   font-family: $font-one
   display: inline-block
   margin-left: 5px
   padding-top: 40px
+  letter-spacing: 6px
+  font-size: 35px
 
 a
   font-family: $font-one
   text-decoration: none
   font-size: 25px
   color: #000
-  margin: 5px
+  margin: 10px
 
 a:hover
   text-decoration: line-through
@@ -42,3 +73,12 @@ a:hover
   position: absolute
   bottom: 0px
   right: 0px
+
+.remove-topborder
+  border-top: 0px
+.remove-leftborder
+  border-left: 0px
+.remove-rightborder
+  border-right: 0px
+.remove-bottomborder
+  border-bottom: 0px

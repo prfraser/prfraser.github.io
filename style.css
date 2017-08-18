@@ -5,7 +5,7 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 215px; }
+  grid-auto-rows: 214px; }
 
 .box {
   background-color: white;
@@ -15,14 +15,16 @@ body {
   font-family: "Jura", sans-serif;
   display: inline-block;
   margin-left: 5px;
-  padding-top: 40px; }
+  padding-top: 40px;
+  letter-spacing: 6px;
+  font-size: 35px; }
 
 a {
   font-family: "Jura", sans-serif;
   text-decoration: none;
   font-size: 25px;
   color: #000;
-  margin: 5px; }
+  margin: 10px; }
 
 a:hover {
   text-decoration: line-through; }
@@ -39,5 +41,17 @@ a:hover {
   position: absolute;
   bottom: 0px;
   right: 0px; }
+
+.remove-topborder, .a, .b, .c {
+  border-top: 0px; }
+
+.remove-leftborder, .a, .d, .g {
+  border-left: 0px; }
+
+.remove-rightborder, .c, .f, .i {
+  border-right: 0px; }
+
+.remove-bottomborder, .g, .h, .i {
+  border-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
