@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Jura");
+body {
+  margin: 0px; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 215px; }
+
+.box {
+  background-color: white;
+  border: 0.5px solid black; }
+
+.header {
+  font-family: "Jura", sans-serif;
+  display: inline-block;
+  margin-left: 5px;
+  padding-top: 40px; }
+
+a {
+  font-family: "Jura", sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  margin: 5px; }
+
+a:hover {
+  text-decoration: line-through; }
+
+.c {
+  text-align: right; }
+
+.g a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px; }
+
+.i a {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; }
+
+/*# sourceMappingURL=style.css.map */
