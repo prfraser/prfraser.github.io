@@ -15,43 +15,38 @@ body {
   font-family: "Jura", sans-serif;
   display: inline-block;
   margin-left: 5px;
-  padding-top: 40px;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 55px;
   letter-spacing: 6px;
   font-size: 35px; }
 
-a {
+p {
   font-family: "Jura", sans-serif;
   text-decoration: none;
   font-size: 25px;
   color: #000;
   margin: 10px; }
 
-a:hover {
+.flipped {
+  transform: rotate(180deg);
+  transition: transform 2s, background-color 3s;
+  background-color: grey; }
+
+p:hover {
   text-decoration: line-through; }
 
-.c {
+#projects-box {
   text-align: right; }
 
-.g a {
+#bottom-left-box a {
   position: absolute;
   bottom: 0px;
   left: 0px; }
 
-.i a {
+#bottom-right-box a {
   position: absolute;
   bottom: 0px;
   right: 0px; }
-
-.remove-topborder, .a, .b, .c {
-  border-top: 0px; }
-
-.remove-leftborder, .a, .d, .g {
-  border-left: 0px; }
-
-.remove-rightborder, .c, .f, .i {
-  border-right: 0px; }
-
-.remove-bottomborder, .g, .h, .i {
-  border-bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
